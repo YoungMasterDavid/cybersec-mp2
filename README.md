@@ -16,7 +16,7 @@ This will generate the following files:
  - signing_private.pem (for signing)
  - signing_public.pem (for verifying)
 
-2. Run the encryption script to send the messagen "Hello, this is a secure message!":
+2. Run the encryption script to enter the message:
 python encrypt.py
 
 Example output: Encrypted Message: b64_encoded_ciphertext_here

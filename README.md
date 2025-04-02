@@ -31,10 +31,10 @@ python verify.py
 Enter the encrypted message and signature. If they match, you’ll see:
 Signature is valid.
 
-If they don’t match:
+- If they don’t match:
 Signature verification failed!
 
-5. If the signature is valid, you can now decrypt the message:
+- If the signature is valid, you can now decrypt the message:
 python decrypt.py
 
 **Workflow**

@@ -6,7 +6,7 @@ sign.py – Signs the encrypted message.
 verify.py – Verifies the signature.
 decrypt.py – Decrypts the message after verification.
 
-How to run:
+**How to run:**
 1. On terminal enter:
 python keygen.py
 

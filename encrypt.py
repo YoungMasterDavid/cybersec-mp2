@@ -19,6 +19,7 @@ def encrypt_message(message: str):
     return base64.b64encode(ciphertext).decode()
 
 if __name__ == "__main__":
-    message = "Hello, this is a secure message!"
+    message = input("Enter the message to encrypt: ")
+    # Example message for testing
     encrypted_message = encrypt_message(message)
     print(f"Encrypted Message: {encrypted_message}")
